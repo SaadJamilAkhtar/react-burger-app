@@ -1,0 +1,52 @@
+.meat,
+.cheese,
+.bacon,
+.lettuce {
+    min-height: 1rem;
+    min-width: 25%;
+    border: 1px solid black;
+    margin: 0.2rem 0;
+}
+
+.meat {
+    background: brown;
+}
+
+.cheese {
+    background: yellow;
+}
+
+.bacon {
+    background: #e34040;
+}
+
+.lettuce {
+    background: greenyellow;
+}
+
+.burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 0;
+    max-height: 50vh;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.top-bun{
+    min-width: 25%;
+    min-height: 5rem;
+    background: #eea929;
+    border-radius: 5rem 5rem 0 0;
+}
+.bottom-bun{
+    min-width: 25%;
+    min-height: 3rem;
+    background: #eea929;
+    border-radius: 0 0 5rem 5rem;
+}
+.empty{
+    padding: 1rem 0;
+}

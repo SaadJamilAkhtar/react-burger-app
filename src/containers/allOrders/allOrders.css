@@ -1,0 +1,21 @@
+.order-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.order-container h2{
+    padding: 2rem 0;
+}
+
+.order-box{
+    margin: 2rem 0;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid saddlebrown;
+}

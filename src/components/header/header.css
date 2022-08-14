@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    min-height: 5rem;
+    background: bisque;
+    align-items: center;
+}
+
+.header-logo {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0 0 2rem;
+}
+
+.header-nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 2rem 0 0;
+    flex-direction: row;
+    width: 100%;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 2rem 2rem;
+    height: 100%;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid brown;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: black;
+    padding: 2rem 0;
+}

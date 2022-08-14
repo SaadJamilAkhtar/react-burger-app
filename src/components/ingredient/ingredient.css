@@ -1,0 +1,72 @@
+.ingredient-section {
+    display: flex;
+    min-height: 40vh;
+    justify-content: center;
+    align-items: center;
+    background: #9f6c0d;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    flex-direction: column;
+}
+
+.price span {
+    font-weight: 900;
+}
+
+.price {
+    margin-top: 1rem;
+}
+
+.order {
+    padding: 0.9rem 1.8rem;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    background: #cece1e;
+    color: saddlebrown;
+    border: 1px solid saddlebrown;
+    cursor: pointer;
+}
+
+.order:disabled {
+    background: rgba(168, 167, 167, 0.75);
+    color: #313030;
+    border: 1px solid rgba(168, 167, 167, 0.75);
+}
+
+.order:disabled:hover {
+    cursor: no-drop;
+}
+
+.scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+.no-underline{
+    text-decoration: none;
+}
