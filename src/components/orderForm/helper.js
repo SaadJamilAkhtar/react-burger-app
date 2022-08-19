@@ -1,4 +1,3 @@
-
 export const validate = (e, errors, setErrors, formData) => {
     const field = e.target.name;
     const val = e.target.value;
@@ -56,7 +55,7 @@ export const placeOrder = (e, ingredients, setOrderList, orderList, price, setIn
     })
     setPrice(3.00)
 
-    navigate("/all-orders");
+    navigate("/all-orders", {state: {newOrder: true}});
 
 }
 
