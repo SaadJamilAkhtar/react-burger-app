@@ -1,24 +1,50 @@
-.ingredients{
+.ingredients {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
 }
-.ingredient-container{
-    border: 1px solid black;
-    padding: 0.5rem 1rem;
-    margin: 0 0.5rem;
+
+.ingredients h4 div {
+    flex: 1;
+    max-width: 20%;
+    min-width: 15%;
 }
 
-.price-container{
+.ingredient-container {
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+}
+
+.price-container {
     margin: 1rem 0;
 }
 
-.price-container span{
+.price-container span {
     font-weight: 800;
 }
 
-.order-item-container{
+.order-item-container {
+    display: flex;
+    flex-direction: column;
     border: 2px solid black;
     padding: 1rem 0.5rem 0 1rem;
     margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    .ingredients h4{
+        width: 100%;
+    }
+    .ingredient-container {
+        width: 40%;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+    .order-item-container{
+        width: 80%;
+    }
 }

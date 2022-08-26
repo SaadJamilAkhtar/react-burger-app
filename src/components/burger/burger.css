@@ -10,10 +10,16 @@
 
 .meat {
     background: brown;
+    min-width: 27%;
+    min-height: 2rem;
+    border-radius: 2rem;
 }
 
 .cheese {
     background: yellow;
+    min-width: 26%;
+    min-height: 1.25rem;
+    border-radius: 1rem;
 }
 
 .bacon {
@@ -22,6 +28,9 @@
 
 .lettuce {
     background: greenyellow;
+    min-width: 26%;
+    min-height: 1.25rem;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .burger {
