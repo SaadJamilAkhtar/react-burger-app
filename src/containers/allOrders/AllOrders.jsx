@@ -11,7 +11,10 @@ function AllOrders({orderList, newOrder}) {
             </div>}
             <div className="order-box">
                 <h2>All Orders</h2>
-                {orderList.map((order) => (<OrderItem order={order}/>))}
+                {orderList.length > 0
+                    ? orderList.map((order) => (<OrderItem order={order}/>))
+                    : <div className="no-order">No order added yet!</div>
+                }
             </div>
         </div>
     );
