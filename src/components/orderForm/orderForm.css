@@ -7,6 +7,9 @@
     margin: 2rem 0;
 
 }
+.title{
+    margin: 0 1rem;
+}
 .form{
     display: flex;
     justify-content: center;
@@ -59,4 +62,18 @@
 .error-message{
     font-weight: 400;
     color: red;
+}
+
+@media screen and (max-width: 1150px){
+    .form{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 750px){
+    .form{
+        width: 70%;
+    }
+
 }
