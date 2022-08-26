@@ -3,21 +3,21 @@
 .bacon,
 .lettuce {
     min-height: 1rem;
-    min-width: 25%;
+    min-width: 110%;
     border: 1px solid black;
     margin: 0.2rem 0;
 }
 
 .meat {
     background: brown;
-    min-width: 27%;
+    min-width: 112%;
     min-height: 2rem;
     border-radius: 2rem;
 }
 
 .cheese {
     background: yellow;
-    min-width: 26%;
+    min-width: 105%;
     min-height: 1.25rem;
     border-radius: 1rem;
 }
@@ -28,12 +28,12 @@
 
 .lettuce {
     background: greenyellow;
-    min-width: 26%;
+    min-width: 102%;
     min-height: 1.25rem;
     border-radius: 1rem 1rem 0 0;
 }
 
-.burger {
+.burger-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,17 +45,55 @@
 }
 
 .top-bun{
-    min-width: 25%;
+    min-width: 100%;
     min-height: 5rem;
     background: #eea929;
     border-radius: 5rem 5rem 0 0;
 }
 .bottom-bun{
-    min-width: 25%;
+    min-width: 100%;
     min-height: 3rem;
     background: #eea929;
     border-radius: 0 0 5rem 5rem;
 }
 .empty{
     padding: 1rem 0;
+}
+
+.burger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+@media screen and (max-width: 1150px){
+    .burger{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .burger{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .burger{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .burger{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .burger{
+        width: 70%;
+    }
 }
