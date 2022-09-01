@@ -2,6 +2,10 @@
 
 This is a burger creator and pordering application using react js. The app support creation of custom burgers global state managment and form validations.
 
+## Preview
+### Find Live preview [Here](https://react-burger-app-woad.vercel.app)
+![img](https://github.com/SaadJamilAkhtar/Project-Images/blob/master/burger-builder-2.png?raw=true)
+
 ## Prerequisites:
 1. Node
 2. npm
